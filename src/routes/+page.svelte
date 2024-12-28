@@ -60,7 +60,7 @@
 </div>
 <div class="relative select-none text-cream my-auto lg:max-w-[45vw] mx-auto flex-1 top-6 lg:top-12 fly-in lg:pr-[6%]">
     <div class="mb-12 fly-in">
-        <h2 class="text-[32px] xl:text-[50px] font-semibold leading-none mb-4">About</h2>
+        <h2 class="text-[32px] xl:text-[50px] font-semibold leading-none mb-4">about</h2>
             <div class="mt-6 space-y-4">
                     <div class="bg-navyHover p-4 rounded-2xl">
                         <p class="my-0.5 text-xl text-creamHover">not a whole lot to see yet, so, in the meantime, check out some of my stars on github!</p>
@@ -71,7 +71,7 @@
     <div class="fly-in">
         <button type="button" class="flex justify-between w-full font-semibold leading-none mb-4 hover:text-creamHover transition-colors duration-250 cursor-pointer"
             onclick={() => window.location.href = 'https://github.com/larspatkowa?tab=stars'} aria-label="Go to starred repositories">
-            <span class="text-[32px] xl:text-[50px]">Stars</span>
+            <span class="text-[32px] xl:text-[50px]">stars</span>
             <i class="fa-solid fa-up-right-from-square text-[20px] lg:text-[28px] pt-[0.25rem] pr-1"></i>
         </button>
         {#if selectedRepos.length > 0}
