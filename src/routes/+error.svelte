@@ -38,5 +38,5 @@
 </script>
 
 <div class="fixed inset-0 flex items-center justify-center">
-    <h1 class="text-36px font-medium typing text-cream border-r-4 text-grey-40 pr-0.5 pt-1 border-cream min-w-1 border-transparent leading-none" class:border-transparent={!blink}>{message}</h1>
+    <h1 class="text-[36px] font-medium typing text-cream border-r-4 text-grey-40 pr-0.5 pt-1 border-cream min-w-1 border-transparent leading-none" class:border-transparent={!blink}>{message}</h1>
 </div>
